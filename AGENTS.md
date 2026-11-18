@@ -23,6 +23,7 @@ These instructions apply to every page of Balázs Pozsgay's research website.
 - At the top of each topic page's main content, show an italic "Project:" label, followed by the project heading on a separate line.
 - After the project heading, show an italic "List of documents:" label before the numbered document list.
 - At the bottom of each topic page, include a "back to main" link to the AIrepo index, separated from the content by generous spacing and a thin black horizontal line.
+- Include a "View on GitHub" link in the footer of the AIrepo index and each topic page, pointing to the corresponding folder in the GitHub repository.
 - Do not number topics in the AIrepo index or in project headings. Use numbered lists for documents within each topic, and repeat each document's number in its detail heading. Document numbering starts at 1 within each topic; keep the list and heading numbers consistent.
 - Each document has a stable section anchor, the user's exact web title and short description, and a single "PDF" link to open its PDF. Do not add a separate download link. Store PDFs with the corresponding topic page.
 - The agreed status labels are "Raw AI output", "Human guided draft", and "Manuscript". Use only the status supplied by the user.
@@ -37,3 +38,4 @@ These instructions apply to every page of Balázs Pozsgay's research website.
 - Make changes only when the user specifically requests them.
 - Keep website source in this directory, connected to `balazs-pozsgay/balazs-pozsgay.github.io`.
 - Commit and publish only when the user explicitly asks. Pushing to `main` updates the live GitHub Pages website.
+- All further changes are local-only by default. The user must explicitly identify which changes to publish; permission for an earlier publication does not authorize uploading later changes.
