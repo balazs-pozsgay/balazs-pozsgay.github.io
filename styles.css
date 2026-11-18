@@ -45,8 +45,27 @@ h2 {
   font-size: 1.25rem;
 }
 
+.project-list {
+  border-collapse: collapse;
+}
+
+.project-list th,
+.project-list td {
+  padding: 0.25rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.project-list th {
+  padding-right: 1.5rem;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
 .document-list {
   margin-bottom: 2.5rem;
+  padding-left: 0;
+  list-style: none;
 }
 
 article {
