@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://balazs-pozsgay.github.io/sitemap.xml
